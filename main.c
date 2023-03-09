@@ -5,7 +5,8 @@
 
 int main() {
     char pattern[] = "aeiouy";
-    int patternsCounter[6] = { 0 };
+    // char pattern[] = {'a', 'e', 'i', 'o', 'u', 'y'};
+    int patternsCounter[6] = { 0 }; // inicializuje všechny prvky pole na 0
     char myString[MAX_STR_LENGTH];
 
     printf("Zadejte vetu pro rozbor:\n");
